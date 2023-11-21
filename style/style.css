@@ -102,3 +102,18 @@ letter-spacing: 2px;
 section .button button:hover {
     background:rgb(117, 117, 143);
 }
+
+section .button h3 {
+    color: var(--Medium-Gray, #7C8798);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Rating */
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.2px;
+width: 8px;
+}
